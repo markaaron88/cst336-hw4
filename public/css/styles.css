@@ -1,0 +1,43 @@
+body{
+  background-color:#d2b48c;
+  text color: white;
+}
+header, main, nav,footer {
+  text-align: center;
+}
+nav a{ 
+  padding:15px;
+  padding-bottom:4px;
+  font-size: 1.8em;
+  text-decoration: none; 
+  color: white;         
+}
+nav a:hover, #currentPage, #contactPage{ 
+  border-bottom:2px #ff4500 solid;
+  font-size: 2em;
+  transition: .10s;  
+}
+main{
+  display: flex;
+  justify-content:center;
+}
+h2{
+   font-size: 30px;
+   color:grey;
+}
+h1 {
+  border: 1px solid red;
+  font-family:'Pacifico',cursive;
+  text-shadow: 2px 2px #FF0000;
+  font-size: 4em;
+  margin-bottom 0px;
+  color:grey;
+}
+h3 {
+   text-align: center;
+   color:grey;
+   font-size: 2em;
+}
+ul li{
+ font-size:30px;
+}
