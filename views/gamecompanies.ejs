@@ -1,7 +1,8 @@
    <% include partials/header.ejs %>  
        <h1> Game Companies</h1>
-      <main>    
-        <a href="https://www.ea.com/about"><img src="img/EAsports.png" alt = "Easports" /></a>    
+      <main>           
+          <div class="column">
+             <a href="https://www.ea.com/about"><img src="img/EAsports.png" alt = "Easports" /></a>    
          <h2>
            Electronic Arts Inc. is a global leader in digital interactive entertainment. EA develops and delivers games, content and online services for Internet-connected consoles, mobile devices and personal computers. EA has more than 300 million registered players around the world.
         </h2>
@@ -11,5 +12,12 @@
         </h2>       
         <a href="https://www.activisionblizzard.com/about-us"><img src="img/activision.png" alt = "activision" /></a> 
         <h2>Headquartered in Santa Monica, California, Activision Blizzard, Inc., is the world's most successful standalone interactive entertainment company and has nearly 500 million monthly active users in 196 countries. </h2>                        
-      </main>
+         <img src="img/fakecomp.png" alt = "fakecomp" /></a> 
+        <h2>
+         <%= fakeCompanyName %> was founded in 2010 in San Jose, Ca. The company has created some of the greatest games ever and continues to be an innovator in the gaming industry.
+        </h2>
+         </div>                  
+     
+     </main>
   <% include partials/footer.ejs %>  
+

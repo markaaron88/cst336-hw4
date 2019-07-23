@@ -1,6 +1,7 @@
 body{
   background-color:#d2b48c;
   text color: white;
+  text-align: center;
 }
 header, main, nav,footer {
   text-align: center;
